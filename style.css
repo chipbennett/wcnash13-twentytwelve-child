@@ -1,0 +1,46 @@
+/*
+Theme Name: WCNash13 TwentyTwelve Child
+Description: Twenty Twelve Child Theme for WordCamp Nashville 2013 presentation "Custom Layouts Without Using Custom Page Templates"
+Template: twentytwelve
+Version: 1.0
+*/
+
+/*
+ * License: GNU GPLv2 (or later)
+ * License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html 
+ *
+ * WCNash13 TwentyTwelve Child WordPress Theme, Copyright (C) 2013 Chip Bennett
+ * WCNash13 TwentyTwelve Child WordPress Theme is distributed under the terms of the GNU GPL, version 2.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * WCNash13 TwentyTwelve Child WordPress Theme is a derivative of Twenty Twelve WordPress Theme, Copyright 2012 the WordPress Theme
+ * Twenty Twelve WordPress Theme is distributed under the terms of the GNU GPL, version 2.
+*/
+
+/*
+ * Inherit styles from Twenty Twelve. 
+*/
+@import url("../twentytwelve/style.css"); 
+
+/*
+ * Add layout-specific style definitions
+ */
+
+ @media screen and (min-width: 600px) {
+	body.layout-full .site-content {
+		width: 100%;
+	}
+	.layout-full .site-content,
+	.layout-full article {
+		overflow: hidden;
+	}
+}
